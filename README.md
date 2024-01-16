@@ -7,9 +7,9 @@
 **time**: Šī bibliotēka piedāvā funkcijas, kas saistītas ar laiku. Šajā gadījumā tā tiek izmantota, lai iegūtu pašreizējo laiku un salīdzinātu to ar failu modificēšanas laikiem.
 
 # Programmatūras izmantošanas metodes
-Mainīgais *download_folder*: Norādiet pilnu ceļu uz mapi, kuru vēlaties attīrīt no vecajiem failiem. Piemēram, *download_folder = "C:/Users/Main/Downloads"*.
+Mainīgais **download_folder**: Norādiet pilnu ceļu uz mapi, kuru vēlaties attīrīt no vecajiem failiem. Piemēram, *download_folder = "C:/Users/Main/Downloads"*.
 
-Funkcija *remove_old_files*: Funkcija tiek izsaukta, padodot mapes ceļu un, pēc nepieciešamības, dienu slieksni, kuras laikā failiem jābūt, lai netiktu dzēsti. Piemēram, *remove_old_files(download_folder, days_threshold=7)* nozīmēs, ka tiks dzēsti visi faili, kuri ir vecāki par 7 dienām.
+Funkcija **remove_old_files**: Funkcija tiek izsaukta, padodot mapes ceļu un, pēc nepieciešamības, dienu slieksni, kuras laikā failiem jābūt, lai netiktu dzēsti. Piemēram, *remove_old_files(download_folder, days_threshold=7)* nozīmēs, ka tiks dzēsti visi faili, kuri ir vecāki par 7 dienām.
 
 # Darbība
 Skripts pārbauda visus failus norādītajā direktorijā un dzēš tos, kuri ir vecāki par iestatīto laika sliekšņa vērtību. Informācija par dzēstajiem failiem tiks izvadīta konsolē.
